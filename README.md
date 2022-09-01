@@ -1,4 +1,4 @@
-# jest-demos
+# jest-demos.    
 
 This is an example project for Jest tests written in JavaScript and running on Node.js.
 Run tests by simply running the `npm test` command from the project root directory.
