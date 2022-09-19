@@ -10,3 +10,4 @@ describe('Scoped / Nested block', () => {
   afterEach(() => console.log('2 - afterEach')) // 9
   test('', () => console.log('2 - test')) // 8
 })
+
