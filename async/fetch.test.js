@@ -12,12 +12,12 @@ test('the data is apple', (done) => {
 
 test('the data is banana', () => {
   expect.assertions(1)
-  return fetchBanana().then(data => expect(data).toBe('bnana'))
+  return fetchBanana().then(data => expect(data).toBe('banana'))
 })
 
 test('the fetch fails with an error', () => {
   expect.assertions(1)
-  return fetchError().catch(e => expect(e).toMatch('eror'))
+  return fetchError().catch(e => expect(e).toMatch('erorr'))
 })
 
 // async
